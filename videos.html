@@ -4,23 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VIDEOS</title>
+    <link rel="stylesheet" href="videosEstilo.css">
 </head>
 <body>
-<h1>Seccion de videos</h1>
-<div>
-<h2>Muestras de jugabilidad de grandes juegos</h2>
-<div>
-<h2>¡Revisalos antes de probarlos!</h2>
-<!--Cambiar videos con los botones-->
-<tabla class="tablaVideos">
-<tr><button>Anterior</button></tr>
-<tr>Video</tr>
-<tr><button>Siguiente</button></tr>
-</tabla>
+        
+  <div class="ventana-archivo">
+    <header class="header-inicio">
+        <h1>Sección de videos</h1>
+        <h2>Muestras de jugabilidad de grandes juegos</h2>
+    </header>
 
-<div>
-<button class="home" onclick="document.location='main.html'">HOME</button>
-<div>
+    <nav class="menu-navegacion">
+        <button id="REPORTAJES" onclick="document.location='reportajes.html'">REPORTAJES</button>
+        <button id="PLATAFORMAS" onclick="document.location='plataformas.html'">PLATAFORMAS</button>
+        <button id="JUEGOS" onclick="document.location='juegos.html'">JUEGOS</button>
+        <button id="GENEROS" onclick="document.location='generos.html'">GENEROS</button>
+        <button id="VIDEOS" onclick="document.location='videos.html'">VIDEOS</button>
+        <button id="ARCHIVO" onclick="document.location='archivo.html'">ARCHIVO</button>
+    </nav>
 
-</body>
+    <div class="seccion-videos">
+        <h2>¡Revísalos antes de probarlos!</h2>
+        <table class="tablaVideos">
+            <tr>
+                <td colspan="2" class="pantalla-video">
+                    <div class="reproductor">
+                        <span>Video (reemplazar con js))</span>
+                    </div>
+                </td>
+            </tr>
+            <tr class="controles-video">
+                <td><button id="anterior">Anterior</button></td>
+                <td><button id="Siguiente">Siguiente</button></td>
+            </tr>
+        </table>
+
+    </div> <div class="contenedor-boton-home">
+        <button class="home" onclick="document.location='main.html'">HOME</button>
+    </div>
+
+  </div>
+ </body>
 </html>

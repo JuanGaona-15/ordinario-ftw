@@ -3,51 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mainEstilo.css">
     <title>Pagina principal</title>
 </head>
 <body>
-<h1>ARCHIVO DE VIDEOJUEGOS</h1>
-<h2>Colección de videojuegos a través de las épocas</h2>
 
-<div></div>
+  <div class="ventana-archivo">
+    
+    <header class="header-inicio">
+        <h1>ARCHIVO DE VIDEOJUEGOS</h1>
+        <h2>Colección de videojuegos a través de las épocas</h2>
+    </header>
+
+    <nav class="menu-navegacion">
+        <button id="REPORTAJES" onclick="document.location='reportajes.html'">REPORTAJES</button>
+        <button id="PLATAFORMAS" onclick="document.location='plataformas.html'">PLATAFORMAS</button>
+        <button id="JUEGOS" onclick="document.location='juegos.html'">JUEGOS</button>
+        <button id="GENEROS" onclick="document.location='generos.html'">GENEROS</button>
+        <button id="VIDEOS" onclick="document.location='videos.html'">VIDEOS</button>
+        <button id="ARCHIVO" onclick="document.location='archivo.html'">ARCHIVO</button>
+    </nav>
+
+    <table class="bienvenida">
         <tr>
-            <td><button id="REPORTAJES" onclick="document.location='reportajes.html'">REPORTAJES</button></td>
-            <td><button id="PLATAFORMAS" onclick="document.location='plataformas.html'">PLATAFORMAS</button></td>
-            <td><button id="JUEGOS" onclick="document.location='juegos.html'">JUEGOS</button></td>
-            <td><button id="GENEROS" onclick="document.location='generos.html'">GENEROS</button></td>
-            <td><button id="VIDEOS" onclick="document.location='videos.html'">VIDEOS</button></td>
-            <td><button id="ARCHIVO" onclick="document.location='archivo.html'">ARCHIVO</button></td>
+            <td class="celda-imagen">
+                <img class="imagenprincipal" src="https://upload.wikimedia.org/wikipedia/commons/d/db/Retrovolt_Arcade_2017_-_Arcade_Machines_2.jpg" alt="Arcade Machines">
+            </td>
+            <td class="texto-bienvenida">
+                ¡Bienvenidos al archivo!
+            </td>
         </tr>
-<div></div>
+    </table>
 
-<table class="bienvenida">
-    <tr>
-        <td><img class="imagenprincipal" width="300px" src="https://upload.wikimedia.org/wikipedia/commons/d/db/Retrovolt_Arcade_2017_-_Arcade_Machines_2.jpg"></td>
-        <td>¡Bienvenidos al archivo!
-        </td>
-    </tr>
-</table>
-<div></div>
+    <h2 class="subtitulo-estrenos">¡Estrenos de este año!</h2>
 
-<h2>¡Estrenos de este año!</h2>
-<div></div>
-<table class="estrenos">
-    <tr>
-        <td>Resident Evil Requiem</td>
-        <td>Forza Horizon 6</td>
-        <td>Pragmata</td>
-        <td>Fatal Frame 2 Remake</td>
-        <td>Tomodachi Life</td>
-    </tr>
-    <tr>
-        <td><img class="estrenos" src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Resident_Evil_Requiem_logo.png"></td>
-        <td><img class="estrenos" src="https://upload.wikimedia.org/wikipedia/commons/7/77/FH6_Logo.png"></td>
-        <td><img class="estrenos" src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Pragmata_cover.jpg"></td>
-        <td><img class="estrenos" src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Logo_Fatal_Frame.png"></td>
-        <td><img class="estrenos" src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Tomodachi_Life_-_Living_the_Dream_logo.svg"></td>
-    </tr>
-</table>
-<div></div>
+    <table class="estrenos">
+        <tr class="titulos-juegos">
+            <td>Resident Evil Requiem</td>
+            <td>Forza Horizon 6</td>
+            <td>Pragmata</td>
+            <td>Fatal Frame 2 Remake</td>
+            <td>Tomodachi Life</td>
+        </tr>
+        <tr class="imagenes-juegos">
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Resident_Evil_Requiem_logo.png" alt="RE"></td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/7/77/FH6_Logo.png" alt="Forza"></td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Pragmata_cover.jpg" alt="Pragmata"></td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Logo_Fatal_Frame.png" alt="Fatal Frame"></td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Tomodachi_Life_-_Living_the_Dream_logo.svg" alt="Tomodachi"></td>
+        </tr>
+    </table>
 
+  </div> 
 </body>
 </html>

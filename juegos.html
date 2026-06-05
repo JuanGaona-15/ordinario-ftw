@@ -4,13 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JUEGOS</title>
+    <link rel="stylesheet" href="juegosEstilo.css">
 </head>
 <body>
-<h1>Los juegos favoritos de mi archivo</h1>
-<button id="cargarjuegos">¡Cargar catálogo!</button>
-<!--Cargar XML con catalogo completo-->
-<div>
-<button class="home" onclick="document.location='main.html'">HOME</button>
 
+  <div class="ventana-archivo">
+
+    <header class="header-inicio">
+        <h1>Los juegos favoritos de mi archivo</h1>
+    </header>
+
+    <nav class="menu-navegacion">
+        <button id="REPORTAJES" onclick="document.location='reportajes.html'">REPORTAJES</button>
+        <button id="PLATAFORMAS" onclick="document.location='plataformas.html'">PLATAFORMAS</button>
+        <button id="JUEGOS" onclick="document.location='juegos.html'">JUEGOS</button>
+        <button id="GENEROS" onclick="document.location='generos.html'">GENEROS</button>
+        <button id="VIDEOS" onclick="document.location='videos.html'">VIDEOS</button>
+        <button id="ARCHIVO" onclick="document.location='archivo.html'">ARCHIVO</button>
+    </nav>
+
+    <div class="catalogo">
+        <button id="cargarjuegos">¡Cargar catálogo!</button>
+        </div>
+
+    <div class="contenedor-boton-home">
+        <button class="home" onclick="document.location='main.html'">HOME</button>
+    </div>
+
+  </div> 
 </body>
 </html>

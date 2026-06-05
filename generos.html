@@ -4,45 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GENEROS</title>
+    <link rel="stylesheet" href="generosEstilo.css">
 </head>
 <body>
-<h1>GENEROS DE VIDEOJUEGOS</h1>
-<h2>Algunos generos importantes para los juegos como tal</h2>
-    <!--Hacer click a la imagen abre el texto-->
-<table class="plataformas">
-        <tr>
-            <td>Este género está diseñado para los amantes de la velocidad, la precisión y la adrenalina. Desde simuladores hiperrealistas que emulan cada detalle de un circuito profesional hasta alocados títulos de estilo arcade llenos de potenciadores y rampas, los juegos de carreras desafían los reflejos de los jugadores mientras compiten por cruzar la línea de meta en primer lugar y dominar el asfalto.</td>
-            <td>CARRERAS</td>
-        </tr>
-        <div>
 
-        <tr>
-            <td>La música y la coordinación son las absolutas protagonistas en este vibrante género. Los jugadores deben presionar botones, seguir patrones visuales o moverse al compás de pegadizas bandas sonoras para acumular puntos y encadenar combos. Ya sea simulando tocar un instrumento, bailando sobre una plataforma o siguiendo el pulso en pantallas táctiles, es una categoría que pone a prueba el oído y la sincronización.</td>
-            <td>RITMO</td>
-        </tr>
-        <div>
+  <div class="ventana-archivo">
 
-        <tr>            
-            <td>Centrados en el combate a distancia y la acción frenética, los juegos de disparos exigen una gran puntería y pensamiento táctico. Ya sea en primera persona (FPS) para una inmersión total en el campo de batalla, o en tercera persona (TPS) para una mejor visión del entorno, este género abarca desde campañas narrativas militares hasta competitivos multijugador y vertiginosos desafíos espaciales.</td>
-            <td>DISPAROS</td>
-        <div>
+    <header class="header-inicio">
+        <h1>GÉNEROS DE VIDEOJUEGOS</h1>
+        <h2>Algunos géneros importantes para todo gusto</h2>
+    </header>
+        
+    <nav class="menu-navegacion">
+        <button id="REPORTAJES" onclick="document.location='reportajes.html'">REPORTAJES</button>
+        <button id="PLATAFORMAS" onclick="document.location='plataformas.html'">PLATAFORMAS</button>
+        <button id="JUEGOS" onclick="document.location='juegos.html'">JUEGOS</button>
+        <button id="GENEROS" onclick="document.location='generos.html'">GENEROS</button>
+        <button id="VIDEOS" onclick="document.location='videos.html'">VIDEOS</button>
+        <button id="ARCHIVO" onclick="document.location='archivo.html'">ARCHIVO</button>
+    </nav>
 
-        <tr>  
-            <td>Es uno de los géneros más amplios y dinámicos de la industria, donde el movimiento constante, los combates cuerpo a cuerpo y la superación de obstáculos en tiempo real son la clave. Estos juegos sumergen al jugador en emocionantes aventuras llenas de plataformas, batallas contra jefes imponentes y mecánicas ágiles que exigen reflejos rápidos y una respuesta inmediata con el control.</td>          
-            <td>ACCION</td>
-        <div>
+    <table class="generos">
+            <tr>
+                <td class="tabla-descripcion">Este género está diseñado para los amantes de la velocidad, la precisión y la adrenalina. Desde simuladores hiperrealistas que emulan cada detalle de un circuito profesional hasta alocados títulos de estilo arcade llenos de potenciadores y rampas, los juegos de carreras desafían los reflejos de los jugadores mientras compiten por cruzar la línea de meta en primer lugar y dominar el asfalto.</td>
+                <td class="titulo">ACCION</td> 
+            </tr>
+            <tr>
+                <td class="tabla-descripcion">La música y la coordinación son las absolutas protagonistas en este vibrante género. Los jugadores deben presionar botones, seguir patrones visuales o moverse al compás de pegadizas bandas sonoras para acumular puntos y encadenar combos. Ya sea simulando tocar un instrumento, bailando sobre una plataforma o siguiendo el pulso en pantallas táctiles, es una categoría que pone a prueba el oído y la sincronización.</td>
+                <td class="titulo">RITMO</td>
+            </tr>
 
-        <tr>              
-            <td>El ingenio, la lógica y la paciencia sustituyen a los reflejos rápidos en este género mentalmente estimulante. Los juegos de acertijos desafían al jugador a resolver problemas complejos, descifrar patrones, emparejar colores o manipular elementos del entorno para avanzar. Es una categoría sumamente gratificante que premia la observación, la estrategia y el pensamiento crítico.</td>
-            <td>ACERTIJOS</td>
-        <div>
+            <tr>            
+                <td class="tabla-descripcion">Centrados en el combate a distancia y la acción frenética, los juegos de disparos exigen una gran puntería y pensamiento táctico. Ya sea en primera persona (FPS) para una inmersión total en el campo de batalla, o en tercera persona (TPS) para una mejor visión del entorno, este género abarca desde campañas narrativas militares hasta competitivos multijugador y vertiginosos desafíos espaciales.</td>
+                <td class="titulo">DISPAROS</td>
+            </tr> <tr>  
+                <td class="tabla-descripcion">Es uno de los géneros más amplios y dinámicos de la industria, donde el movimiento constante, los combates cuerpo a cuerpo y la superación de obstáculos en tiempo real son la clave. Estos juegos sumergen al jugador en emocionantes aventuras llenas de plataformas, batallas contra jefes imponentes y mecánicas ágiles que exigen reflejos rápidos y una respuesta inmediata con el control.</td>          
+                <td class="titulo">ACCION</td>
+            </tr> <tr>            
+                <td class="tabla-descripcion">El ingenio, la lógica y la paciencia sustituyen a los reflejos rápidos en este género mentalmente estimulante. Los juegos de acertijos desafían al jugador a resolver problemas complejos, descifrar patrones, emparejar colores o manipular elements del entorno para avanzar. Es una categoría sumamente gratificante que premia la observación, la estrategia y el pensamiento crítico.</td>
+                <td class="titulo">ACERTIJOS</td>
+            </tr> <tr>
+                <td class="tabla-descripcion">Los RPG transportan a los jugadores a mundos vastos y profundos donde la narrativa y la evolución de los personajes son lo más importante. A través de la toma de decisiones, la exploración de mapas masivos y la gestión de estadísticas, equipamiento y habilidades, cada jugador forja su propio camino en aventuras épicas que suelen ofrecer decenas de horas de juego e historias inolvidables.</td>
+                <td class="titulo">RPG</td>
+            </tr>
+    </table>
 
-        <tr>
-            <td>Los RPG transportan a los jugadores a mundos vastos y profundos donde la narrativa y la evolución de los personajes son lo más importante. A través de la toma de decisiones, la exploración de mapas masivos y la gestión de estadísticas, equipamiento y habilidades, cada jugador forja su propio camino en aventuras épicas que suelen ofrecer decenas de horas de juego e historias inolvidables.</td>
-            <td>RPG</td>
-        </tr>
-</table>
-<div>
-<button class="home" onclick="document.location='main.html'">HOME</button>
+    <div class="contenedor-boton-home">
+        <button class="home" onclick="document.location='main.html'">HOME</button>
+    </div>
+
+  </div> 
 </body>
 </html>
