@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #7b9ba6;
+    padding: 30px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.ventana-archivo {
+    background-color: white;
+    border: 3px solid black;  
+    border-radius: 12px;
+    width: 100%;
+    max-width: 950px;
+    box-shadow: 8px 8px 0px black; 
+    overflow: hidden;
+}
+
+/* Encabezado */
+.header-inicio {
+    text-align: center;
+    padding: 25px 15px;
+    background-color: black;
+}
+
+.header-inicio h1 {
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    color: #7b9ba6;
+}
+
+.header-inicio h2 {
+    font-size: 16px;
+    color: #7b9ba6;
+    font-weight: normal;
+}
+
+/* Botones de navegación */
+.menu-navegacion {
+    display: flex;
+    flex-wrap: wrap; 
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    background-color: #cbdbe3; 
+}
+
+.menu-navegacion button {
+    flex: 1;
+    min-width: 120px;
+    padding: 12px 5px;
+    background: transparent;
+    border: none;
+    border-right: 3px solid black; 
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+    transition: background 0.2s;
+}
+
+.menu-navegacion button:last-child {
+    border-right: none;
+}
+
+/* quienes somos */
+.Seccion-nosotros {
+    width: 85%;
+    margin: 40px auto;
+    background-color: white;
+}
+
+.Seccion-nosotros p {
+    font-size: 15px;
+    line-height: 1.7;
+    text-align: justify;
+    margin-bottom: 35px; 
+    color: #1a1a1a;
+}
+
+.Seccion-nosotros h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    border-bottom: 2px dashed black;
+    padding-bottom: 5px;
+}
+
+/* lista de misión */
+.lista-mision {
+    list-style-type: square; 
+    padding-left: 20px;      
+    margin-bottom: 40px;
+}
+
+.lista-mision li {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 15px; 
+    text-align: justify;
+}
+
+/*home */
+.contenedor-boton-home {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.home {
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: black;
+    color: #7b9ba6;
+    border: 2px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px #cbdbe3;
+}

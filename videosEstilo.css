@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #7b9ba6;
+    padding: 30px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.ventana-archivo {
+    background-color: white;
+    border: 3px solid black;  
+    border-radius: 12px;
+    width: 100%;
+    max-width: 950px;
+    box-shadow: 8px 8px 0px black; 
+    overflow: hidden;
+}
+
+/* Encabezado */
+.header-inicio {
+    text-align: center;
+    padding: 25px 15px;
+    background-color: black;
+}
+
+.header-inicio h1 {
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    color: #7b9ba6;
+}
+
+.header-inicio h2 {
+    font-size: 16px;
+    color: #7b9ba6;
+    font-weight: normal;
+}
+
+/* Botones de navegación */
+.menu-navegacion {
+    display: flex;
+    flex-wrap: wrap; 
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    background-color: #cbdbe3; 
+}
+
+.menu-navegacion button {
+    flex: 1;
+    min-width: 120px;
+    padding: 12px 5px;
+    background: transparent;
+    border: none;
+    border-right: 3px solid black; 
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+    transition: background 0.2s;
+}
+
+.menu-navegacion button:last-child {
+    border-right: none;
+}
+
+/* seccion de videos */
+.seccion-videos {
+    text-align: center;
+    padding: 30px 15px;
+}
+
+.seccion-videos h2 {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+/* Reproductor del video */
+.tablaVideos {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    border-collapse: collapse;
+    border: 3px solid black;
+    box-shadow: 6px 6px 0px black;
+    background-color: #cbdbe3; /* Fondo azul claro para la base del reproductor */
+}
+
+.tablaVideos td {
+    border: 2px solid black;
+    padding: 15px;
+}
+
+/*  pantalla del video */
+.pantalla-video {
+    background-color: #1a1a1a; /* Fondo oscuro simulando pantalla apagada */
+    padding: 0 !important; /* Resetea el padding para que el reproductor ocupe todo */
+}
+
+.reproductor {
+    width: 100%;
+    height: 300px; /* Altura ideal de la pantalla */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7b9ba6;
+    font-weight: bold;
+    font-size: 16px;
+    border-bottom: 1px solid black;
+}
+
+/* Controles (botones) */
+.controles-video td {
+    width: 50%; 
+    background-color: #cbdbe3;
+}
+
+.controles-video button {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 2px 2px 0px black;
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.controles-video button:active {
+    transform: translate(1px, 1px);
+    box-shadow: 1px 1px 0px black;
+}
+
+/* home */
+.contenedor-boton-home {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.home {
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: black;
+    color: #7b9ba6;
+    border: 2px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px #cbdbe3;
+}

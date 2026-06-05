@@ -25,7 +25,36 @@
 
     <div class="catalogo">
         <button id="cargarjuegos">¡Cargar catálogo!</button>
+        
+        <div class="contenedor-filtros">
+            <input type="text" id="buscador" placeholder="Buscar por título, desarrollador o ID" disabled>
+            
+            <select id="filtro-genero" disabled>
+                <option value="todos">Todos los géneros</option>
+                <option value="Accion">Acción</option>
+                <option value="Disparos">Disparos</option>
+                <option value="Ritmo">Ritmo</option>
+                <option value="Carreras">Carreras</option>
+                <option value="RPG">RPG</option>
+                <option value="Acertijos">Acertijos</option>
+            </select>
         </div>
+
+        <script src="juegosJS.js"></script>
+
+        <table class="tabla-catalogo">
+            <thead>
+                <tr>
+                    <th>TÍTULO</th>
+                    <th>AÑO</th>
+                    <th>GÉNERO</th>
+                    <th>DESARROLLADOR</th>
+                    <th>DESCRIPCIÓN</th>
+                </tr>
+            </thead>
+            <tbody id="tabla-contenido"></tbody>
+        </table>
+    </div>
 
     <div class="contenedor-boton-home">
         <button class="home" onclick="document.location='main.html'">HOME</button>

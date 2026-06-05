@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #7b9ba6; /*Color del fondo*/
+    padding: 30px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.ventana-archivo {
+    background-color: white;
+    border: 3px solid black;  
+    border-radius: 12px;
+    width: 100%;
+    max-width: 950px;
+    box-shadow: 8px 8px 0px black; 
+    overflow: hidden;
+}
+
+/* Encabezado */
+.header-inicio {
+    text-align: center;
+    padding: 25px 15px;
+    background-color: black;
+}
+
+.header-inicio h1 {
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    color: #7b9ba6;
+}
+
+.header-inicio h2 {
+    font-size: 16px;
+    color: #7b9ba6;
+    font-weight: normal;
+}
+
+/* Botones de navegación */
+.menu-navegacion {
+    display: flex;
+    flex-wrap: wrap; 
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    background-color: #cbdbe3; 
+}
+
+.menu-navegacion button {
+    flex: 1;
+    min-width: 120px;
+    padding: 12px 5px;
+    background: transparent;
+    border: none;
+    border-right: 3px solid black; 
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+    transition: background 0.2s;
+}
+
+.menu-navegacion button:last-child {
+    border-right: none;
+}
+
+.menu-navegacion button:hover {
+    background-color: #cbdbe3; /* Opcional: define tu hover */
+}
+
+/* banner */
+.banner-reportajes {
+    text-align: center;
+    padding: 25px;
+}
+
+.imagen-noticias {
+    width: 50%;
+    max-width: 400px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 100%;
+    margin-bottom: 15px;
+}
+
+.banner-reportajes h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Tabla de noticias */
+.reportajes {
+    width: 90%;
+    margin: 10px auto 30px auto;
+    border-collapse: collapse;
+    border: 2px solid black;
+    box-shadow: 4px 4px 0px black;
+}
+
+.reportajes tr {
+    transition: background-color 0.2s;
+}
+
+.reportajes td {
+    border: 2px solid black;
+    padding: 20px;
+    vertical-align: top; /* Hace que los textos empiecen alineados desde arriba */
+}
+
+.titulo-noticia {
+    width: 30%; /* Deja la tercera parte para el título */
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #cbdbe3; /* El color azul que elegiste en tu paleta */
+    color: black;
+}
+
+.contenido-noticia {
+    width: 70%;
+    background-color: white;
+    font-size: 14px;
+    line-height: 1.6; /* Espaciado entre renglones para leer cómodamente */
+    text-align: justify;
+}
+
+/* Home */
+.contenedor-boton-home {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.home {
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: black;
+    color: #7b9ba6;
+    border: 2px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px #cbdbe3;
+    transition: transform 0.1s;
+}
