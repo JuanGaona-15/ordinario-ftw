@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE noticias SYSTEM 'reportajes.dtd'>
+<noticias>
+    <noticia id="nota01">
+        <titulo>La fiebre por Grand Theft Auto VI alcanza su punto máximo</titulo>
+        <informacion>El juego más esperado de la década entra en su recta final y las expectativas de la comunidad están rompiendo todos los récords posibles. Rockstar Games promete revolucionar una vez más el concepto de mundo abierto con una narrativa madura y físicas de nueva generación que exprimirán al máximo el hardware actual. El fenómeno que rodea a esta entrega no solo moverá millones en la industria, sino que promete redefinir la cultura pop del entretenimiento digital por los próximos años.</informacion>
+    </noticia>
+
+    <noticia id="nota02">
+        <titulo>Sony sacude la mesa con un nuevo State of Play</titulo>
+        <informacion>La compañía nipona ha paralizado las redes con su última transmisión oficial de más de una hora repleta avivando anuncios globales. El gran protagonista de la noche fue Marvel's Wolverine, desarrollado por Insomniac Games, el cual finalmente mostró un brutal avance de gameplay y confirmó su esperada fecha de lanzamiento para este 15 de septiembre. Con este movimiento, PlayStation asegura un cierre de año espectacular para los usuarios de PS5.</informacion>
+    </noticia>
+
+    <noticia id="nota03">
+        <titulo>Microsoft apuesta el todo por el todo con Gears of War: E-Day</titulo>
+        <informacion>Xbox se prepara para su gran Showcase anual con una enorme expectación alrededor de la esperada precuela de una de sus sagas más emblemáticas. Gears of War: E-Day promete regresar a las raíces oscuras de la franquicia, llevándonos a los primeros días de la invasión Locust junto a unos jóvenes Marcus Fénix y Dom Santiago. El título busca consolidarse como el gran estandarte gráfico y jugable del ecosistema Xbox y PC.</informacion>
+    </noticia>
+
+    <noticia id="nota04">
+        <titulo>La "Nintendo Switch 2" empieza a recibir sus primeros grandes ports</titulo>
+        <informacion>La rumoreada y esperada sucesora de Nintendo sigue acaparando titulares a medida que su catálogo toma forma. Títulos de gran envergadura técnica como Final Fantasy VII Rebirth y el aclamado indie Wanderstop están listos para dar el salto a la nueva plataforma de la Gran N, demostrando el enorme salto de potencia que tendrá el dispositivo portátil. Los desarrolladores elogian la facilidad para adaptar mundos abiertos masivos a este nuevo hardware.</informacion>
+    </noticia>
+</noticias>

@@ -1,0 +1,5 @@
+<!ELEMENT noticias (noticia+)>
+<!ELEMENT noticia (titulo,informacion)>
+<!ATTLIST noticia id ID #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT informacion (#PCDATA)>
