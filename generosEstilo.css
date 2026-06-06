@@ -98,10 +98,10 @@ body {
     width: 30%;
     font-weight: bold;
     font-size: 16px;
-    background-color: #cbdbe3; /* Fondo azul claro característico */
+    background-color: #cbdbe3; 
     color: black;
     text-align: center;
-    vertical-align: middle !important; /* Fuerza el centrado vertical en la celda */
+    vertical-align: middle !important; 
 }
 
 /* home */
