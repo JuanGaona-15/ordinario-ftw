@@ -1,0 +1,6 @@
+<!ELEMENT plataformas (plataforma+)>
+<!ELEMENT plataforma (titulo, logo, informacion)>
+<!ATTLIST plataforma id ID #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT logo (#PCDATA)>
+<!ELEMENT informacion (#PCDATA)>

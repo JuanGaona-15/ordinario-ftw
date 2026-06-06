@@ -1,2 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plataformas SYSTEM 'plataformas.dtd'>
+<plataformas>
+    <plataforma id="plat01">
+        <titulo>XBOX</titulo>
+        <logo>https://upload.wikimedia.org/wikipedia/commons/1/19/Xbox_2019_Green.svg</logo>
+        <informacion>La marca de videojuegos de Microsoft revolucionó la industria desde su llegada en 2001, destacando por su potencia técnica y su enfoque en el juego en línea a través de Xbox Live. Con franquicias icónicas como Halo y Gears of War, y servicios modernos como Xbox Game Pass, se ha consolidado como un pilar fundamental del ecosistema del gaming de alta fidelidad.</informacion>
+    </plataforma>
+    <plataforma id="plat02">
+        <titulo>PLAYSTATION</titulo>
+        <logo>https://upload.wikimedia.org/wikipedia/commons/9/91/PlayStation_App_Icon.jpg</logo>
+        <informacion>Lanzada por Sony a mediados de los años 90, PlayStation transformó los videojuegos en un fenómeno de cultura de masas global gracias al uso del CD-ROM y gráficos en 3D. Es reconocida históricamente por albergar un catálogo masivo de exclusivas memorables como God of War, Uncharted y The Last of Us, manteniéndose siempre a la vanguardia de las consolas de sobremesa.</informacion>
+    </plataforma>
+    <plataforma id="plat03">
+        <titulo>NINTENDO</titulo>
+        <logo>https://upload.wikimedia.org/wikipedia/commons/5/51/Nintendo_logo.svg</logo>
+        <informacion>Como una de las compañías más longevas y queridas de la industria, Nintendo es sinónimo de innovación, magia y diversión familiar. Desde revivir el mercado de las consolas en los años 80 hasta el éxito híbrido de la Nintendo Switch, la Gran N es el hogar de personajes universales y legendarios como Mario, Zelda y Pokémon.</informacion>
+    </plataforma>
+    <plataforma id="plat04">
+        <titulo>SEGA</titulo>
+        <logo>https://upload.wikimedia.org/wikipedia/commons/c/c7/SEGA_logo_JPN.svg</logo>
+        <informacion>Sega fue el titán rebelde que desafió las normas de la industria durante las eras de los 8 y 16 bits con consolas legendarias como la Mega Drive (Genesis). Aunque hoy en día ya no fabrican hardware, su legado como creadores de experiencias arcade rápidas y el nacimiento de Sonic the Hedgehog broke dejaron una huella imborrable en la historia del entretenimiento digital.</informacion>
+    </plataforma>
+    <plataforma id="plat05">
+        <titulo>ATARI</titulo>
+        <logo>https://upload.wikimedia.org/wikipedia/commons/5/5f/Atari%2C_Inc._logo_%281973%29.svg</logo>
+        <informacion>Considerada la verdadera pionera del entretenimiento interactivo en el hogar, Atari definió a toda una generación en los años 70 y 80 con la mítica Atari 2600. Fue la responsable de popularizar el concepto de los cartuchos intercambiables y de llevar clásicos pixelados directos al salón de las casas, sentando las bases de la industria actual.</informacion>
+    </plataforma>
+    <plataforma id="plat06">
+        <titulo>ARCADES</titulo>
+        <logo>https://upload.wikimedia.org/wikipedia/commons/5/57/Original_Namco_%28Japan%29_Galaxian_and_very_early_Midway_%28USA%29_Galaxian_arcade_machines.jpg</logo>
+        <informacion>Las salas de juego o "maquinitas" representan la época dorada donde nació la pasión por los videojuegos competitivos y cooperativos. Con sus icónicos muebles, palancas y botones, los arcades eran el lugar de encuentro para buscar la puntuación más alta en títulos legendarios como Pac-Man, Space Invaders o Street Fighter II, ofreciendo gráficos que las consolas de casa tardaron años en alcanzar.</informacion>
+    </plataforma>
+</plataformas>

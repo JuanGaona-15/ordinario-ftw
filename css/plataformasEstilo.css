@@ -98,6 +98,16 @@ body {
     vertical-align: middle !important; /* Centra el nombre de la marca verticalmente */
 }
 
+.imagen-plataforma{
+    width: 30%;
+    height: 100px;
+    height: 250px;
+    background-color: black;
+    text-align: center;
+    vertical-align: middle !important; /*centra el logo*/
+
+}
+
 .info-plataforma {
     width: 70%;
     background-color: white;
