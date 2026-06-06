@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE juegos SYSTEM "juegos.dtd">
+<juegos>
+<juego id="game01">
+    <titulo>Grand Theft Auto VI</titulo>
+    <anio>2025</anio>
+    <genero>Accion</genero>
+    <dev>Rockstar Games</dev>
+    <descripcion>El esperado regreso a Vice City con una narrativa de mundo abierto y fisicas de nueva generacion.</descripcion>
+  </juego>
+
+  <juego id="game02">
+    <titulo>Halo: Combat Evolved</titulo>
+    <anio>2001</anio>
+    <genero>Disparos</genero>
+    <dev>Bungie</dev>
+    <descripcion>El titulo revolucionario que redefinio el genero de disparos en primera persona para las consolas.</descripcion>
+  </juego>
+
+  <juego id="game03">
+    <titulo>Super Mario Odyssey</titulo>
+    <anio>2017</anio>
+    <genero>Accion</genero>
+    <dev>Nintendo</dev>
+    <descripcion>Una aventura en tres dimensiones donde Mario viaja a traves de mundos utilizando a su fiel sombrero Cappy.</descripcion>
+  </juego>
+
+  <juego id="game04">
+    <titulo>Guitar Hero III: Legends of Rock</titulo>
+    <anio>2007</anio>
+    <genero>Ritmo</genero>
+    <dev>Neversoft</dev>
+    <descripcion>Desafia los reflejos y la coordinacion musical simulando tocar los mejores solos de la historia del rock.</descripcion>
+  </juego>
+
+  <juego id="game05">
+    <titulo>Gran Turismo 7</titulo>
+    <anio>2022</anio>
+    <genero>Carreras</genero>
+    <dev>Polyphony Digital</dev>
+    <descripcion>El simulador de conduccion real que combina circuitos profesionales y una pasion inmensa por el automovilismo.</descripcion>
+  </juego>
+
+  <juego id="game06">
+    <titulo>The Witcher 3: Wild Hunt</titulo>
+    <anio>2015</anio>
+    <genero>RPG</genero>
+    <dev>CD Projekt Red</dev>
+    <descripcion>Acompaña al brujo Geralt de Rivia en un basto mundo de fantasia oscura buscando a la niña de la profecia.</descripcion>
+  </juego>
+
+  <juego id="game07">
+    <titulo>Portal 2</titulo>
+    <anio>2011</anio>
+    <genero>Acertijos</genero>
+    <dev>Valve</dev>
+    <descripcion>Utiliza el ingenio y una pistola de portales para resolver complejos rompecabezas fisicos dentro de Aperture Science.</descripcion>
+  </juego>
+
+  <juego id="game08">
+    <titulo>Gears of War</titulo>
+    <anio>2006</anio>
+    <genero>Disparos</genero>
+    <dev>Epic Games</dev>
+    <descripcion>Accion tactica en tercera persona centrada en coberturas y una lucha desesperada contra la invasion Locust.</descripcion>
+  </juego>
+
+  <juego id="game09">
+    <titulo>Elden Ring</titulo>
+    <anio>2022</anio>
+    <genero>RPG</genero>
+    <dev>FromSoftware</dev>
+    <descripcion>Explora las Tierras Intermedias enfrentando desafiantes jefes en una obra maestra de fantasia oscura.</descripcion>
+  </juego>
+
+  <juego id="game10">
+    <titulo>Pac-Man</titulo>
+    <anio>1980</anio>
+    <genero>Acertijos</genero>
+    <dev>Namco</dev>
+    <descripcion>El mitico icono de las salas arcade donde debes comer todos los puntos de un laberinto evitando fantasmas.</descripcion>
+  </juego>
+
+  <juego id="game11">
+    <titulo>Mario Kart 8 Deluxe</titulo>
+    <anio>2017</anio>
+    <genero>Carreras</genero>
+    <dev>Nintendo</dev>
+    <descripcion>Freneticas carreras de karts llenas de objetos, antigravedad y diversion competitiva multijugador.</descripcion>
+  </juego>
+
+  <juego id="game12">
+    <titulo>Uncharted 4: A Thief's End</titulo>
+    <anio>2016</anio>
+    <genero>Accion</genero>
+    <dev>Naughty Dog</dev>
+    <descripcion>El cazador de tesoros Nathan Drake regresa de su retiro para una ultima aventura cinematografica.</descripcion>
+  </juego>
+
+  <juego id="game13">
+    <titulo>Beat Saber</titulo>
+    <anio>2019</anio>
+    <genero>Ritmo</genero>
+    <dev>Beat Games</dev>
+    <descripcion>Corta bloques al ritmo de la musica electronica utilizando sables de luz en realidad virtual.</descripcion>
+  </juego>
+
+  <juego id="game14">
+    <titulo>Space Invaders</titulo>
+    <anio>1978</anio>
+    <genero>Disparos</genero>
+    <dev>Taito</dev>
+    <descripcion>El mitico juego de disparos fijo que sento las bases de la industria y la pasion por las maquinita.</descripcion>
+  </juego>
+
+  <juego id="game15">
+    <titulo>Tetris</titulo>
+    <anio>1984</anio>
+    <genero>Acertijos</genero>
+    <dev>Alexey Pajitnov</dev>
+    <descripcion>Encaja perfectamente las piezas geometricas descendientes para limpiar lineas en el puzzle mas vendido de la historia.</descripcion>
+  </juego>
+
+  <juego id="game16">
+    <titulo>Final Fantasy VII</titulo>
+    <anio>1997</anio>
+    <genero>RPG</genero>
+    <dev>Square</dev>
+    <descripcion>Una epopeya de rol por turnos que marco una epoca gracias a su profunda historia de eco-terrorismo y magia.</descripcion>
+  </juego>
+
+  <juego id="game17">
+    <titulo>Pitfall!</titulo>
+    <anio>1982</anio>
+    <genero>Accion</genero>
+    <dev>Activision</dev>
+    <descripcion>Guia a Pitfall Harry a traves de una selva peligrosa esquivando cocodrilos y troncos en la mítica Atari 2600.</descripcion>
+  </juego>
+
+  <juego id="game18">
+    <titulo>The Legend of Zelda: Breath of the Wild</titulo>
+    <anio>2017</anio>
+    <genero>Accion</genero>
+    <dev>Nintendo</dev>
+    <descripcion>Rompe las reglas convencionales de las aventuras abriendo un gigantesco mundo de exploracion libre en Hyrule.</descripcion>
+  </juego>
+
+  <juego id="game19">
+    <titulo>Forza Horizon 5</titulo>
+    <anio>2021</anio>
+    <genero>Carreras</genero>
+    <dev>Playground Games</dev>
+    <descripcion>Explora vibrantes y cambiantes paisajes de mundo abierto conduciendo cientos de los mejores autos del mundo.</descripcion>
+  </juego>
+
+  <juego id="game20">
+    <titulo>Street Fighter II</titulo>
+    <anio>1991</anio>
+    <genero>Accion</genero>
+    <dev>Capcom</dev>
+    <descripcion>El rey indiscutible de los salones arcade que establecio las reglas modernas de los juegos de pelea competitiva.</descripcion>
+  </juego>
+</juegos>

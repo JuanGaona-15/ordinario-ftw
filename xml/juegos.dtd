@@ -1,0 +1,8 @@
+<!ELEMENT juegos (juego+)>
+<!ELEMENT juego (titulo, anio, genero, dev, descripcion)>
+<!ATTLIST juego id ID #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT anio (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT dev (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
