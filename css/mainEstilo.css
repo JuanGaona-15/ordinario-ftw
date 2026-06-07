@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #7b9ba6; /*Fondo principal */
+    background-color: #7b9ba6; 
     padding: 30px 15px;
     display: flex;
     justify-content: center;
@@ -52,7 +52,7 @@ body {
     background-color: #cbdbe3; 
 }
 
-.menu-navegacion button {
+.menu-navegacion a {
     flex: 1;
     min-width: 120px;
     padding: 12px 5px;
@@ -64,6 +64,14 @@ body {
     cursor: pointer;
     color: black;
     transition: background 0.2s;
+
+    display: block;             
+    text-decoration: none;      
+    text-align: center;       
+}
+
+.menu-navegacion a:last-child {
+    border-right: none;
 }
 
 /* Bienvenida*/
@@ -128,6 +136,18 @@ body {
     text-align: center;
     vertical-align: middle;
     width: 20%; 
+}
+
+/*Ocultar caption, porque es para accesibilidad, no para el diseño*/
+.estrenos caption{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }
 
 .titulos-juegos td {

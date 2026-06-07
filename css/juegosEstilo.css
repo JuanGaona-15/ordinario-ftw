@@ -35,7 +35,7 @@ body {
     color: #7b9ba6;
 }
 
-/* Botones de navegación */
+/* Botones de navegacion */
 .menu-navegacion {
     display: flex;
     flex-wrap: wrap; 
@@ -44,7 +44,7 @@ body {
     background-color: #cbdbe3; 
 }
 
-.menu-navegacion button {
+.menu-navegacion a {
     flex: 1;
     min-width: 120px;
     padding: 12px 5px;
@@ -56,9 +56,13 @@ body {
     cursor: pointer;
     color: black;
     transition: background 0.2s;
+
+    display: block;             
+    text-decoration: none;      
+    text-align: center;       
 }
 
-.menu-navegacion button:last-child {
+.menu-navegacion a:last-child {
     border-right: none;
 }
 
@@ -88,7 +92,7 @@ body {
     width: 100%;
     border-collapse: collapse;
     border: 3px solid black;
-    box-shadow: 6px 6px 0px black; /* Sombra sólida bloque */
+    box-shadow: 6px 6px 0px black; 
     margin-bottom: 20px;
 }
 
@@ -110,6 +114,18 @@ body {
     color: black;
     text-align: left;
     vertical-align: top;
+}
+
+/*Ocultar caption, porque es para accesibilidad, no para el diseño*/
+.tabla-catalogo caption{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }
 
 /* home */

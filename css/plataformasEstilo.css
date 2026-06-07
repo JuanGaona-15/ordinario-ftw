@@ -42,7 +42,7 @@ body {
     font-weight: normal;
 }
 
-/* Navegación */
+/* Botones de navegacion */
 .menu-navegacion {
     display: flex;
     flex-wrap: wrap; 
@@ -51,7 +51,7 @@ body {
     background-color: #cbdbe3; 
 }
 
-.menu-navegacion button {
+.menu-navegacion a {
     flex: 1;
     min-width: 120px;
     padding: 12px 5px;
@@ -63,9 +63,13 @@ body {
     cursor: pointer;
     color: black;
     transition: background 0.2s;
+
+    display: block;             
+    text-decoration: none;      
+    text-align: center;       
 }
 
-.menu-navegacion button:last-child {
+.menu-navegacion a:last-child {
     border-right: none;
 }
 
@@ -95,7 +99,7 @@ body {
     background-color: #cbdbe3; 
     color: black;
     text-align: center;
-    vertical-align: middle !important; /* Centra el nombre de la marca verticalmente */
+    vertical-align: middle !important; 
 }
 
 .imagen-plataforma{
@@ -104,8 +108,7 @@ body {
     height: 250px;
     background-color: black;
     text-align: center;
-    vertical-align: middle !important; /*centra el logo*/
-
+    vertical-align: middle !important; 
 }
 
 .info-plataforma {

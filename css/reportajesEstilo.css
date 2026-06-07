@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #7b9ba6; /*Color del fondo*/
+    background-color: #7b9ba6; 
     padding: 30px 15px;
     display: flex;
     justify-content: center;
@@ -42,7 +42,7 @@ body {
     font-weight: normal;
 }
 
-/* Botones de navegación */
+/* Botones de navegacion */
 .menu-navegacion {
     display: flex;
     flex-wrap: wrap; 
@@ -51,7 +51,7 @@ body {
     background-color: #cbdbe3; 
 }
 
-.menu-navegacion button {
+.menu-navegacion a {
     flex: 1;
     min-width: 120px;
     padding: 12px 5px;
@@ -63,14 +63,14 @@ body {
     cursor: pointer;
     color: black;
     transition: background 0.2s;
+
+    display: block;             
+    text-decoration: none;      
+    text-align: center;       
 }
 
-.menu-navegacion button:last-child {
+.menu-navegacion a:last-child {
     border-right: none;
-}
-
-.menu-navegacion button:hover {
-    background-color: #cbdbe3; /* Opcional: define tu hover */
 }
 
 /* banner */
@@ -110,14 +110,14 @@ body {
 .reportajes td {
     border: 2px solid black;
     padding: 20px;
-    vertical-align: top; /* Hace que los textos empiecen alineados desde arriba */
+    vertical-align: top; 
 }
 
 .titulo-noticia {
-    width: 30%; /* Deja la tercera parte para el título */
+    width: 30%; 
     font-weight: bold;
     font-size: 16px;
-    background-color: #cbdbe3; /* El color azul que elegiste en tu paleta */
+    background-color: #cbdbe3; 
     color: black;
 }
 
@@ -125,8 +125,21 @@ body {
     width: 70%;
     background-color: white;
     font-size: 14px;
-    line-height: 1.6; /* Espaciado entre renglones para leer cómodamente */
+    line-height: 1.6;
     text-align: justify;
+}
+
+
+/*Ocultar caption, porque es para accesibilidad, no para el diseño*/
+.reportajes caption{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }
 
 /* Home */

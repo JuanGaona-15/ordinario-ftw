@@ -40,9 +40,8 @@ document.addEventListener("DOMContentLoaded", () => {//Misma instruccion de carg
         reproductor.innerHTML = `
             <iframe 
                 src="${video.url}" 
-                title="${video.titulo}" 
+                title="Reproductor de video: ${video.titulo}" 
                 frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                 allowfullscreen>
             </iframe>
         `;

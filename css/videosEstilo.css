@@ -42,7 +42,7 @@ body {
     font-weight: normal;
 }
 
-/* Botones de navegación */
+/* Botones de navegacion */
 .menu-navegacion {
     display: flex;
     flex-wrap: wrap; 
@@ -51,7 +51,7 @@ body {
     background-color: #cbdbe3; 
 }
 
-.menu-navegacion button {
+.menu-navegacion a {
     flex: 1;
     min-width: 120px;
     padding: 12px 5px;
@@ -63,9 +63,13 @@ body {
     cursor: pointer;
     color: black;
     transition: background 0.2s;
+
+    display: block;             
+    text-decoration: none;      
+    text-align: center;       
 }
 
-.menu-navegacion button:last-child {
+.menu-navegacion a:last-child {
     border-right: none;
 }
 
