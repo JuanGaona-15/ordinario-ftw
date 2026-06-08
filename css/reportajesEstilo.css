@@ -160,3 +160,28 @@ body {
     box-shadow: 3px 3px 0px #cbdbe3;
     transition: transform 0.1s;
 }
+
+/* Filtro de búsqueda*/
+.contenedor-buscador {
+    width: 90%;
+    margin: 20px auto 20px auto; 
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.contenedor-buscador input {
+    flex: 1;
+    padding: 10px 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 4px 4px 0px black;
+    outline: none;
+    transition: transform 0.1s;
+}

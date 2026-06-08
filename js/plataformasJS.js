@@ -29,6 +29,22 @@ fetch("xml/plataformas.xml")
             tablaLogo[i].innerHTML  = `<img class="logos" width = "200px" height = "200px" src="${logo}" alt="logo">`;
             tablaInformacion[i].innerHTML = `<p>${informacion}</p>`;
         }
+
+        // Buscador
+        const inputBusqueda = document.getElementById("input-busqueda");
+        inputBusqueda.addEventListener("input", () => {
+            const textoBuscado = inputBusqueda.value.toLowerCase();
+            for (let i = 0; i < 6; i++) {
+                const filaActual = tablaTitulo[i].parentNode;
+                const contenidoTitulo = tablaTitulo[i].textContent.toLowerCase();
+                if (contenidoTitulo.includes(textoBuscado)) {
+                    filaActual.style.display = ""; //Si encuentra
+                } else {
+                    filaActual.style.display = "none"; //No encuentra
+                }
+            }
+        });
+
     })
     .catch(error => { //Excepcion
         console.error("Error al procesar las noticias:", error);

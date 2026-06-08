@@ -26,6 +26,22 @@ fetch("xml/reportajes.xml")
             tablaTitulares[i].textContent = titulo;
             tablaInformacion[i].innerHTML = `<p>${informacion}</p>`;
         }
+
+        //Buscador
+        const inputBusqueda = document.getElementById("input-busqueda");
+        inputBusqueda.addEventListener("input", () => {
+            const textoBuscado = inputBusqueda.value.toLowerCase();
+            for (let i = 0; i < 4; i++) {
+                const filaActual = tablaTitulares[i].parentNode;
+                const contenidoTitulo = tablaTitulares[i].textContent.toLowerCase();
+                if (contenidoTitulo.includes(textoBuscado)) {
+                    filaActual.style.display = ""; //Si encuentra
+                } else {
+                    filaActual.style.display = "none"; //No encuentra
+                }
+            }
+        });
+
     })
     .catch(error => { //Excepcion
         console.error("Error al procesar las noticias:", error);
